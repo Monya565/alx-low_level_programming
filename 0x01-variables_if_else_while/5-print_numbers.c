@@ -5,11 +5,9 @@
  */
 int main(void)
 {
-int n;
-for (n = 0; n < 10; n++)
-{
-printf("%d", n);
-}
+int x;
+for (x = 0; x < 10; x++)
+printf("%d", x);
 printf("\n");
 return (0);
 }
