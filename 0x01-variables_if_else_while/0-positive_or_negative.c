@@ -3,7 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Select a random number then prints the chosen number and whether it's positive or negative or zero.
+ * main - Select a random number then 
+ * prints the chosen number and states
+ * whether it's positive or negative or zero.
  * Return: Always 0.
 */
 int main(void)
