@@ -11,7 +11,7 @@ char let;
 for (count = 0; count <10; count++)
 {
 for (let = 'a'; let <= 'z'; let++)
-_putchar(letter);
+_putchar(let);
 _putchar('\n');
 return;
 }
