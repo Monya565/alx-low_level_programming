@@ -5,14 +5,13 @@
  */
 int main(void)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
-return (0);
+	char putc[] = "_putchar";
+	int i;
+	int z = strlen(putc);
+
+	for (i = 0; i < z ; i++)
+		_putchar(putc[i]);
+	_putchar('\n');
+
+	return (0);
 }
