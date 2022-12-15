@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int mul - mulplies two integers.
+ * mul - mulplies two integers.
  * @a: first int.
  * @b: second int.
  *
@@ -8,5 +8,5 @@
  */
 int mul(int a, int b)
 {
-	return(a * b);
+	return (a * b);
 }
