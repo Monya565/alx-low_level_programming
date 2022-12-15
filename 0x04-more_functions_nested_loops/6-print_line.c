@@ -10,8 +10,9 @@ void print_line(int n)
 	void print_line(int n)
 {
 	int i;
-
-	for (i = 0; i < n; i++)
+	if (i <= 0)
+		_putchar('\n')
+	for (i = 1; i <= n; i++)
 	{
 		_putchar('_');
 	}
