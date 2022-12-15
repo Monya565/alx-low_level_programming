@@ -15,6 +15,6 @@ void more_numbers(void)
 			if (j >= 10)
 			_putchar(j);
 		}
-		_putchar('/n');
+		_putchar('\n');
 	}
 }
