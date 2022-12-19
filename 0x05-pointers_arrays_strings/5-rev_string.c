@@ -18,7 +18,7 @@ void rev_string(char *s)
 	for (c = 0; c < length - 1; c++)
 		end++;
 
-	for (c = 0; c < length/2; c++)
+	for (c = 0; c < length / 2; c++)
 	{
 		temp   = *end;
 		*end   = *begin;
@@ -27,6 +27,7 @@ void rev_string(char *s)
 		end--;
 	}
 }
+/* _strlen - str length. */
 int _strlen(char *s)
 {
 	int x = 0;
