@@ -2,7 +2,7 @@
  * puts_half - prints half of a string
  * @str: char to be checked
  *
- * Return: 0 is success
+ * Return: void.
  */
 void puts_half(char *str)
 {
