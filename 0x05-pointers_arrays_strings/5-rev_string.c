@@ -27,7 +27,6 @@ void rev_string(char *s)
 		begin++;
 		end--;
 	}
-}
 
 int _strlen(char *s)
 {
@@ -36,4 +35,5 @@ int _strlen(char *s)
 	while (s[x] != '\0')
 		x++;
 	return (x);
+}
 }
