@@ -3,6 +3,7 @@
 * rev_string - reverses a string.
 * _strlen - prints str length.
 * @s: str to be reversed.
+* Description: _strlen prints str length.
 *
 * Return: void.
 */
@@ -27,7 +28,7 @@ void rev_string(char *s)
 		end--;
 	}
 }
-/* _strlen - str length. */
+
 int _strlen(char *s)
 {
 	int x = 0;
