@@ -30,13 +30,14 @@ void rev_string(char *s)
 }
 /**
 * _strlen - prints str length.
-* @s: str.
+* @a: str to be printed.
+* Return: 0.
 */
-int _strlen(char *s)
+int _strlen(char *a)
 {
 	int x = 0;
 
-	while (s[x] != '\0')
+	while (a[x] != '\0')
 		x++;
 	return (x);
 }
