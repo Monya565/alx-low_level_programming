@@ -6,7 +6,7 @@
  *
  * Return: 0.
  */
-swap_int(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 	x = *a;
 	*a = *b;
