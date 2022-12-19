@@ -27,7 +27,11 @@ void rev_string(char *s)
 		begin++;
 		end--;
 	}
-
+}
+/**
+* _strlen - prints str length.
+* @s: str.
+*/
 int _strlen(char *s)
 {
 	int x = 0;
@@ -35,5 +39,4 @@ int _strlen(char *s)
 	while (s[x] != '\0')
 		x++;
 	return (x);
-}
 }
