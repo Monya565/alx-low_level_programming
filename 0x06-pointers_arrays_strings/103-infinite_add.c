@@ -2,12 +2,12 @@
 
 /**
  * infinite_add - adds two numbers
- * @n1: first number
- * @n2: second number
- * @r: buffer for result
+ * @n1: 1st int.
+ * @n2: 2nd int.
+ * @r: buffer to save result
  * @size_r: buffer size
- * ahhh! Crazy task! Expand your knowledge
- * Return: address of r or 0
+ *
+ * Return: char.
  */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
