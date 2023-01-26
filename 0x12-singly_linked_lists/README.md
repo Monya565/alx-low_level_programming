@@ -1,2 +1,1 @@
-# alx-low_level_programming
-This repository contains basic c language 
+0x12. C - Singly linked lists
