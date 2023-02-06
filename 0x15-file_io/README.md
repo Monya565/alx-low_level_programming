@@ -1,2 +1,1 @@
-# alx-low_level_programming
-This repository contains basic c language 
+# 0x15. C - File I/O
