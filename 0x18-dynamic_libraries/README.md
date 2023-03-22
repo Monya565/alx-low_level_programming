@@ -1,2 +1,2 @@
-# alx-low_level_programming
-This repository contains basic c language 
+# 0x18-dynamic_libraries
+In this project, I learnt how to create dynamic libraries from modules and use them
